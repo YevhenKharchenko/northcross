@@ -1,6 +1,7 @@
 .header {
-  background: #020204;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background: #f9fafb;
+  padding-top: 5px;
+  padding-bottom: 5px;
   position: fixed;
   width: 100%;
   top: 0;
@@ -10,35 +11,21 @@
   }
 }
 
-.header-wrapper {
-  background: rgba(255, 255, 255, 0.01);
-
-  @include media(desktop) {
-  }
-}
-
 .header-bg-wrapper {
-  padding-top: 7px;
-  padding-bottom: 7px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/hero/hero-bg-mob.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: auto;
 
   @include media(desktop) {
     max-width: 1440px;
-    background-image: url(../img/hero/hero-bg-desk.png);
   }
 }
 
 .header-container {
-  padding: 0 26px;
+  padding: 0 32px;
 
   @include media(desktop) {
-    padding: 0 139px;
+    padding: 0 155px;
   }
 }
 
@@ -70,7 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
   }
 }
 
@@ -86,7 +73,7 @@
   font-size: 14px;
   line-height: 1.42857;
   text-align: center;
-  color: #99a1af;
+  color: #151515;
   transition: color 0.3s ease-in-out;
 
   &:hover,
@@ -105,4 +92,5 @@
 }
 
 .menu-icon {
+  stroke: #000;
 }
