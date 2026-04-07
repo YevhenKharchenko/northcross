@@ -1,0 +1,146 @@
+.features-section {
+  @include media(desktop) {
+  }
+}
+
+.features-section-wrapper {
+  padding-top: 50px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding-top: 100px;
+    max-width: 1440px;
+  }
+}
+
+.features-container {
+  @include media(desktop) {
+  }
+}
+
+.features-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+.features-text-wrapper {
+  @include media(desktop) {
+    width: 100%;
+    max-width: 641px;
+  }
+}
+
+.features-title {
+  text-align: left;
+  margin-bottom: 10px;
+
+  @include media(desktop) {
+  }
+}
+
+.features-top-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: -0.08em;
+  background: linear-gradient(90deg, #8ec5ff 0%, #bedbff 50%, #c4b4ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    letter-spacing: -0.05em;
+    max-width: 538px;
+    margin-bottom: 50px;
+  }
+}
+
+.features-list-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #6a7282;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.55556;
+    letter-spacing: 0.02em;
+  }
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 18px;
+
+  @include media(desktop) {
+  }
+}
+
+.features-list-item {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+
+  @include media(desktop) {
+  }
+}
+
+.features-item-circle {
+  background: rgba(81, 162, 255, 0.4);
+  border-radius: 33554400px;
+  min-width: 8px;
+  width: 8px;
+  height: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.features-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #99a1af;
+
+  @include media(desktop) {
+    font-size: 16px;
+    line-height: 1.625;
+  }
+}
+
+.features-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  color: #99a1af;
+
+  @include media(desktop) {
+    font-size: 16px;
+    line-height: 1.625;
+    max-width: 537px;
+  }
+}
+
+.features-img {
+  @include media(desktop) {
+    min-width: 462px;
+  }
+}

@@ -1,0 +1,135 @@
+.efficiency-section {
+  @include media(desktop) {
+  }
+}
+
+.efficiency-section-wrapper {
+  padding-top: 50px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    padding-top: 100px;
+    max-width: 1440px;
+  }
+}
+
+.efficiency-container {
+  @include media(desktop) {
+  }
+}
+
+.efficiency-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.efficiency-text-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.efficiency-title {
+  margin-bottom: 10px;
+
+  @include media(desktop) {
+  }
+}
+
+.efficiency-top-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: -0.08em;
+  text-align: center;
+  background: linear-gradient(90deg, #8ec5ff 0%, #bedbff 50%, #c4b4ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+  }
+}
+
+.efficiency-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 854px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+}
+
+.efficiency-list-item {
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 30px;
+  padding: 10px 32px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 313px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding: 12px 32px;
+    max-width: 422px;
+  }
+}
+
+.efficiency-item-circle {
+  box-shadow: 0 0 8px 0 rgba(147, 197, 253, 0.3);
+  background: rgba(81, 162, 255, 0.3);
+  border-radius: 33554400px;
+  min-width: 12px;
+  width: 12px;
+  height: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.efficiency-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #d1d5dc;
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.625;
+  }
+}
+
+.efficiency-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  color: #99a1af;
+
+  @include media(desktop) {
+    font-size: 16px;
+    line-height: 1.625;
+    max-width: 537px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
