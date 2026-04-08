@@ -10,7 +10,7 @@
   margin: 0 auto;
   background-image: url(../img/hero/hero-img-mob.png);
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: bottom 50px center;
   background-size: auto;
 
   @include media(desktop) {
@@ -34,7 +34,7 @@
 
 .hero-text-wrapper {
   @include media(desktop) {
-    max-width: 662px;
+    max-width: 642px;
     margin-left: 116px;
   }
 }

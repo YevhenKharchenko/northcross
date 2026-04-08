@@ -4,9 +4,11 @@
 }
 
 .footer-bg-wrapper {
+  padding-top: 50px;
   padding-bottom: 6px;
 
   @include media(desktop) {
+    padding-top: 186px;
     padding-bottom: 55px;
   }
 }
